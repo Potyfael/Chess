@@ -33,6 +33,6 @@ public class Position {
 
     @Override
     public String toString() {
-        return String.format("%d, %d", row, col);
+        return String.format("%d, %d", row+1, col+1);
     }
 }
